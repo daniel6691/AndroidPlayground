@@ -66,4 +66,10 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    // ArcGIS Map Kotlin SDK dependency
+    implementation("com.esri:arcgis-maps-kotlin:200.4.0")
+    // Toolkit dependencies
+    implementation("com.esri:arcgis-maps-kotlin-toolkit-geoview-compose:200.4.0")
+    // Additional modules from Toolkit, if needed, such as:
+    // implementation("com.esri:arcgis-maps-kotlin-toolkit-authentication:200.4.0")
 }
